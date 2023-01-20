@@ -5,9 +5,11 @@ local Window = Library.CreateLib("X Hub Edition", "BloodTheme")
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
-MainSection:NewKeybind("SwagMode", "SWAG", Enum.KeyCode.F2, function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
-end)
+MainSection:NewButton("Netless", "one of the R6 To R15", function()
+
+    loadstring(game:HttpGet(('https://pastebin.com/N1US291U'),true))()
+
+ end)
 
 MainSection:NewButton("INFINTE YEILD", "FE ADMIN COMMANDS", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
