@@ -7,7 +7,7 @@ local MainSection = Main:NewSection("Main")
 
 MainSection:NewButton("Netless", "one of the R6 To R15", function()
 
-    loadstring(game:HttpGet(('https://pastebin.com/N1US291U'),true))()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/N1US291U'),true))()
 
  end)
 
